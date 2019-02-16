@@ -1,7 +1,5 @@
-import java.awt.Color;
 
 import edu.cmu.ri.createlab.terk.robot.finch.Finch;
-import javafx.application.Application;
 
 public class Main {
 
