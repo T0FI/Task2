@@ -54,7 +54,7 @@ public class Main extends Application {  // "extends Application" is used to mak
 				Main.Bray.setLED(i, 0, 0);
 
 			}
-			JOptionPane.showMessageDialog(null,"Finch is not level. Place finch \n and press ok.");  // Message will pop up if the finch is not levelled on the floor
+			JOptionPane.showMessageDialog(null,"Finch is not level. Place finch \n on a levelled surface \n and press ok.");  // Message will pop up if the finch is not levelled on the floor
 		}
 		
 		// Finch is level
@@ -69,11 +69,11 @@ public class Main extends Application {  // "extends Application" is used to mak
 		// set the GUI to hold the main page
 		GUI.setScene(mainPage);
 		
-//		GUI.show();
+		GUI.show();
 		
 		
 
-		System.exit(0); // Exits with 0 errors
+//		System.exit(0); // Exits with 0 errors
 	}
 	
 	public static void main(String[] args) {
