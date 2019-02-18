@@ -61,8 +61,8 @@ public class Main extends Application {  // "extends Application" is used to mak
 		
 		
 		// GUI Setup
-		GUI.setHeight(500);
-		GUI.setWidth(1000);
+		GUI.setHeight(550);
+		GUI.setWidth(1040);
 		
 		// create main page using JavaFX
 		Scene mainPage = new Scene(FXMLLoader.load(getClass().getResource("mainPage.fxml"))); // .fxml file is the design created after exporting from JavaFX Scene Builder
