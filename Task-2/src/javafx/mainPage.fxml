@@ -22,7 +22,7 @@
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="okButton" layoutX="472.0" layoutY="444.0" mnemonicParsing="false" onAction="#okButtonOnAction" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
+      <Button fx:id="okMainButton" layoutX="472.0" layoutY="444.0" mnemonicParsing="false" onAction="#okMainButtonOnAction" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
          <font>
             <Font name="Agency FB Bold" size="18.0" />
          </font>

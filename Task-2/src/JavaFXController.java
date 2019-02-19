@@ -60,8 +60,8 @@ public class JavaFXController {
 		
 	}
 	
-	public void okButtonOnAction (Event e) {
-		
+	public void okMainButtonOnAction (Event e) throws IOException {
+		textEnter(e);
 	}
 	
 	
