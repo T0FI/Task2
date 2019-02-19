@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFXController">
+   <children>
+      <ImageView fitHeight="510.0" fitWidth="1194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="JAVAFX/MainPage.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="triangleButton" layoutX="367.0" layoutY="350.0" mnemonicParsing="false" onAction="#triangleButtonOnAction" prefHeight="88.0" prefWidth="84.0" text="▲" textAlignment="CENTER">
+         <font>
+            <Font size="35.0" />
+         </font></Button>
+      <Button fx:id="rectangleButton" layoutX="571.0" layoutY="350.0" mnemonicParsing="false" onAction="#rectangleButtonOnAction" prefHeight="88.0" prefWidth="84.0" text="▬" textAlignment="CENTER">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="okButton" layoutX="472.0" layoutY="444.0" mnemonicParsing="false" onAction="#okButtonOnAction" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="letterTextBox" alignment="CENTER" layoutX="436.0" layoutY="272.0" onAction="#textEnter" promptText="Enter Letter Here" />
+   </children>
+</AnchorPane>
