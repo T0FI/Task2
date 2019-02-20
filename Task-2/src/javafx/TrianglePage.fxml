@@ -13,10 +13,10 @@
             <Image url="JAVAFX/TrianglePage.png" />
          </image>
       </ImageView>
-      <TextField alignment="CENTER" layoutX="436.0" layoutY="276.0" promptText="Enter Length A Here" />
-      <TextField alignment="CENTER" layoutX="436.0" layoutY="317.0" promptText="Enter Length B Here" />
-      <TextField alignment="CENTER" layoutX="436.0" layoutY="358.0" promptText="Enter Length C Here" />
-      <Button layoutX="473.0" layoutY="415.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
+      <TextField fx:id="textBoxA" alignment="CENTER" layoutX="436.0" layoutY="276.0" onAction="#textBoxAOnAction" promptText="Enter Length A Here" />
+      <TextField fx:id="textBoxB" alignment="CENTER" layoutX="436.0" layoutY="317.0" onAction="#textBoxBOnAction" promptText="Enter Length B Here" />
+      <TextField fx:id="textBoxC" alignment="CENTER" layoutX="436.0" layoutY="358.0" onAction="#textBoxCOnAction" promptText="Enter Length C Here" />
+      <Button fx:id="okTriButton" layoutX="473.0" layoutY="415.0" mnemonicParsing="false" onAction="#okTriButtonOnAction" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
          <font>
             <Font name="Agency FB Bold" size="18.0" />
          </font>

@@ -75,4 +75,12 @@ public class JavaFXController {
 		
 	}
 	
+	
+	//TRIANGLE PAGE
+	
+	
+	
+	
+	
+	
 }

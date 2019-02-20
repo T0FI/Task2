@@ -34,7 +34,7 @@ public class Main extends Application { // "extends Application" is used to make
 
 				}
 				// Decrease Green
-				for (int i = 255; i >= 0; i -= 2) {
+				for (int i = 255; i >= -1; i -= 2) {
 					Main.Bray.setLED(0, i, 0);
 				}
 				
