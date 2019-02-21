@@ -6,16 +6,16 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFXController">
    <children>
       <ImageView fitHeight="510.0" fitWidth="1194.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="JAVAFX/TrianglePage.png" />
          </image>
       </ImageView>
-      <TextField fx:id="textBoxA" alignment="CENTER" layoutX="436.0" layoutY="276.0" onAction="#textBoxAOnAction" promptText="Enter Length A Here" />
-      <TextField fx:id="textBoxB" alignment="CENTER" layoutX="436.0" layoutY="317.0" onAction="#textBoxBOnAction" promptText="Enter Length B Here" />
-      <TextField fx:id="textBoxC" alignment="CENTER" layoutX="436.0" layoutY="358.0" onAction="#textBoxCOnAction" promptText="Enter Length C Here" />
+      <TextField fx:id="textBoxA" alignment="CENTER" layoutX="436.0" layoutY="276.0" promptText="Enter Length A Here" />
+      <TextField fx:id="textBoxB" alignment="CENTER" layoutX="436.0" layoutY="317.0" promptText="Enter Length B Here" />
+      <TextField fx:id="textBoxC" alignment="CENTER" layoutX="436.0" layoutY="358.0" promptText="Enter Length C Here" />
       <Button fx:id="okTriButton" layoutX="473.0" layoutY="415.0" mnemonicParsing="false" onAction="#okTriButtonOnAction" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
          <font>
             <Font name="Agency FB Bold" size="18.0" />

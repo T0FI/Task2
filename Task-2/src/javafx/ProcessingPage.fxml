@@ -10,10 +10,15 @@
    <children>
       <ImageView fitHeight="510.0" fitWidth="1194.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../CS1701%20LELA/Images/JAVAFX/ProcessingPage.png" />
+            <Image url="JAVAFX/ProcessingPage.png" />
          </image>
       </ImageView>
-      <Button fx:id="cancelButton" layoutX="441.0" layoutY="294.0" mnemonicParsing="false" onAction="#cancelOnAction" prefHeight="39.0" prefWidth="138.0" text="CANCEL" textAlignment="CENTER">
+      <Button fx:id="cancelButton" layoutX="441.0" layoutY="294.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="39.0" prefWidth="138.0" text="CANCEL" textAlignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="doneButton" layoutX="466.0" layoutY="358.0" mnemonicParsing="false" onAction="#doneButtonOnAction" prefHeight="44.0" prefWidth="89.0" text="DONE" textAlignment="CENTER">
          <font>
             <Font name="Agency FB Bold" size="23.0" />
          </font>

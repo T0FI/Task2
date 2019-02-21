@@ -10,10 +10,10 @@
    <children>
       <ImageView fitHeight="510.0" fitWidth="1194.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../CS1701%20LELA/Images/JAVAFX/ErrorPageSize.png" />
+            <Image url="JAVAFX/ErrorPageSize.png" />
          </image>
       </ImageView>
-      <Button fx:id="errorSizeButton" layoutX="472.0" layoutY="296.0" mnemonicParsing="false" onAction="#errorSizeOnAction" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
+      <Button fx:id="errorSizeButton" layoutX="472.0" layoutY="296.0" mnemonicParsing="false" onAction="#errorSizeButtonOnAction" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
          <font>
             <Font name="Agency FB Bold" size="18.0" />
          </font>

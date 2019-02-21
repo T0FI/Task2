@@ -6,19 +6,19 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFXController">
    <children>
       <ImageView fitHeight="510.0" fitWidth="1194.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="JAVAFX/RectanglePage.png" />
          </image>
       </ImageView>
-      <Button layoutX="472.0" layoutY="375.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
+      <Button fx:id="okRecButton" layoutX="472.0" layoutY="375.0" mnemonicParsing="false" onAction="#okRecButtonOnAction" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
          <font>
             <Font name="Agency FB Bold" size="18.0" />
          </font>
       </Button>
-      <TextField alignment="CENTER" layoutX="436.0" layoutY="325.0" promptText="Enter Width Here" />
-      <TextField alignment="CENTER" layoutX="436.0" layoutY="284.0" promptText="Enter Height Here" />
+      <TextField fx:id="textBoxWidth" alignment="CENTER" layoutX="436.0" layoutY="325.0" promptText="Enter Width Here" />
+      <TextField fx:id="textBoxHeight" alignment="CENTER" layoutX="436.0" layoutY="284.0" promptText="Enter Height Here" />
    </children>
 </AnchorPane>

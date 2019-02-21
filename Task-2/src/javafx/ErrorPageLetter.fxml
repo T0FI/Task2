@@ -13,7 +13,7 @@
             <Image url="JAVAFX/ErrorPageLetter.png" />
          </image>
       </ImageView>
-      <Button fx:id="errorLetterButton" layoutX="472.0" layoutY="294.0" mnemonicParsing="false" onAction="#errorLetterOnAction" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
+      <Button fx:id="errorLetterButton" layoutX="472.0" layoutY="294.0" mnemonicParsing="false" onAction="#errorLetterButtonOnAction" prefHeight="28.0" prefWidth="76.0" text="OK" textAlignment="CENTER">
          <font>
             <Font name="Agency FB Bold" size="18.0" />
          </font>
